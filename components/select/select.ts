@@ -137,7 +137,7 @@ let optionsTemplate = `
         <i class="dropdown-toggle pull-right"></i>
         <i class="caret pull-right"></i>
         <a *ngIf="allowClear && active.length>0" style="margin-right: 10px; padding: 0;"
-          (click)="remove(activeOption)" class="close pull-right">
+          (click)="remove(active[0]])" class="close pull-right">
           &times;
         </a>
       </span>
